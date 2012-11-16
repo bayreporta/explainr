@@ -3,14 +3,6 @@ explainr
 
 This is a template for building a slide-based visual explainer with built-in tooltip and jQuery interactivity. 
 
-<strong>BACK STORY</strong>
-
-Seven UC Berkeley Journalism Grad students build a project called <strong>Gimme Props!</strong> for the 2012 election season. The project, <a href="http://www.gimmeprops.us">which can be found here</a>, was the first major coding endeavor I have done to date. As a journalism-turning-hacker, it was exciting to create something from relative scratch using javascript. 
-
-In short, the goal of the project was to create an <strong>interactive explainer</strong> on all of the 11 California ballot measures. I never really liked how ballot measures are covered and find the articles to be realitively dry, even for a politics lover like myself. Considering how important these often-confusing and self-interested props are, we tried something different. 
-
-I was tasked with creating a template to show all the content on the various props. Now that the project is finished, I realized this template could easily be reproduced for other stories or uses. Like I said before, I'm a coding noob, so the code might not be a clean or as concise as it could be. 
-
 <strong>WHAT IS EXPLAINR?</strong>
 
 I'm calling it Explainr, because I think it can be best used in that storytelling format. For those outside of journo culture, an explainer is a story that is basically a primer on any given topic, person, or issue. They're usually pretty straightforward and informative. 
@@ -30,6 +22,14 @@ To create an interactive tooltip:
   3. Add whatever you want the tooltip to display in the title attribute in the a tag. It can be styled to a degree to give paragraph breaks, bullets, or bold/italics.
   4. Add the .selectable class as an attribute in the IMG tag to give the image "interactivity" - basically changes opacity to 0.7 on hover over and restores it when it leaves. 
   5. PRESTO!
+
+<strong>BACKGROUND</strong>
+
+Seven UC Berkeley Journalism Grad students build a project called <strong>Gimme Props!</strong> for the 2012 election season. The project, <a href="http://www.gimmeprops.us">which can be found here</a>, was the first major coding endeavor I have done to date. As a journalism-turning-hacker, it was exciting to create something from relative scratch using javascript. 
+
+In short, the goal of the project was to create an <strong>interactive explainer</strong> on all of the 11 California ballot measures. I never really liked how ballot measures are covered and find the articles to be realitively dry, even for a politics lover like myself. Considering how important these often-confusing and self-interested props are, we tried something different. 
+
+I was tasked with creating a template to show all the content on the various props. Now that the project is finished, I realized this template could easily be reproduced for other stories or uses. Like I said before, I'm a coding noob, so the code might not be a clean or as concise as it could be. 
 
 <strong>ACKNOWLEGEMENTS</strong>
 
