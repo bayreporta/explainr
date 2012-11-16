@@ -11,6 +11,8 @@ This template is great for someone, particularly a journalist, to build a slide-
 
 All you have to do is download the files and plug in your HTML content within the SECTIONS in the HTML template that represent each slide. You can have as many slides as you want, or as little. Minor manipulation of the CSS and JS files may be required. 
 
+The template uses JQuery, which is included. 
+
   
 <strong>USING TOOLTIP</strong>
 
