@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>EXPLAINR</title>
+	<meta name="description" content="Enter your description here">
+	
+	<!-- FONT IMPORT - Purely my preference for the tooltips. Can change in CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+	
+	<!-- CSS IMPORTS--> 
+	<link href='css/explainr.css' rel='stylesheet' type='text/css'> <!-- Import Explainr Style -->
+	
+	<!-- JS IMPORTS-->
+	<script src="js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script> <!-- Required. Make sure is UP-TO-DATE! -->
+	<script src="js/explainr.js" type="text/javascript" charset="utf-8"></script> <!-- Import Explainr Code -->
+
+</head>
+
+
+
+<body onload="arrowCleaning();">
+	<div id="container" style="background:black;">		 
+		<!-- RIGHT ARROWS FOR NAVIGATION -->
+		<a href="#" onclick="slideNext();arrowCleaning();"><img src="assets/arrow_right_solid.png" id="right_arrow" class="right_arrow"></a>
+		
+		<!-- LEFT ARROWS FOR NAVIGATION -->	
+		<a href="#" onclick="slideBefore();arrowCleaning();"><img src="assets/arrow_left_solid.png" id="left_arrow" class="left_arrow"></a>
+		 
+		<!-- SLIDE 1 HTML -->
+			<section id="slide_1" class="slides">
+				
+				<!-- BACKGROUND ART, IF ANY -->
+				<img id="" src="">
+				<img id="" src="">
+				
+				
+				<!-- CLICKABLES -->
+				<!-- Replicate as needed. Refer to DOCUMENTATION for more information-->
+				<a href="#" rel="tooltip" title=""><img id="" class="selectable" src=""></a>
+				<a href="#" rel="tooltip" title=""><img id="" class="selectable" src=""></a>
+				
+			</section>
+				
+		<!-- SLIDE 2 HTML -->
+			<section id="slide_2" class="slides"></section>
+			
+		<!-- SLIDE 3 HTML -->
+			<section id="slide_3" class="slides"></section>
+			
+		<!-- SLIDE 4 HTML -->
+			<section id="slide_4" class="slides"></section>
+			
+		<!-- SLIDE 5 HTML -->
+			<section id="slide_5" class="slides"></section>
+			
+		<!-- SLIDE 6 HTML -->
+			<section id="slide_6" class="slides"></section>	
+				
+	</div>
+</body>
+</html>

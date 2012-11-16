@@ -1,0 +1,128 @@
+/*_________________________________________________________//
+//														   //
+//						Explainr 						   //
+//														   //	
+//														   //
+//---------------------------------------------------------*/
+
+/* This contains all the basic style information required for the slides to work. Generally, this won't have to be tweaked unless you want to change the size of the slides or the style of the tooltip. All the style is under the assumption that the SLIDES will be 860/640. If that is not the case, arrow placement and other style changes may be required */
+
+/*_________________________________________________________//
+//					CSS RESET							   //
+//---------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}	
+
+/*_________________________________________________________//
+//					SLIDE CLASS STYLE					   //
+//---------------------------------------------------------*/
+
+	.slides {
+		width:860px;
+		height:640px;
+	}
+
+/*_________________________________________________________//
+//					TOOLTIP STYLE						   //
+//---------------------------------------------------------*/
+
+	#tooltip {
+		position:absolute;
+		z-index:9999;
+		color:#fff;
+		font-size:13px;
+		line-height:20px;
+		word-spacing:1px;
+		width:180px;
+		font-family:"open sans","san serif";
+		opacity:0.7;
+		
+	}
+	.selectable a:hover {
+		text-decoration:none;
+	}
+
+	#tooltip .tipBody {
+		background-color:#1E1E1E;
+		padding:5px 9px 5px 15px;
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+	}
+
+/*_________________________________________________________//
+//					ARROW STYLE							   //
+//---------------------------------------------------------*/
+
+/* Style for navigation arrows included with Explainr */
+
+	.right_arrow {
+		position:absolute;
+		top:300px;
+		left:810px;
+		padding:0px;
+		margin:0px;
+		z-index:999;
+		opacity:0.7;
+	}
+
+	.left_arrow {
+		position:absolute;
+		top:300px;
+		left:20px;
+		padding:0px;
+		margin:0px;
+		z-index:999;
+		opacity:0.7;
+	}
+
+/*_________________________________________________________//
+//					INDIVIDUAL SLIDES STYLE				   //
+//---------------------------------------------------------*/	
+
+/* This establishes the visibility of all the slides. Defaulted toward SLIDE 1 being visible, and all other slides being invisible. NOTE: If you are adding slides, you must add CSS for that slide ID and set DISPLAY to NONE for it to work. */
+
+	#slide_1 {
+		display:block;
+	}
+		
+	#slide_2 {
+		display:none;
+
+	}		
+			
+	#slide_3 {
+		display:none;
+	}
+		
+	#slide_4 {
+		display:none;
+	}
+		
+	#slide_5 {
+		display:none;
+	}
+			
+		
+	#slide_6 {
+		display:none;
+	}
+		
+								
