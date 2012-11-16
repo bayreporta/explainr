@@ -46,7 +46,7 @@ Thanks to all my colleagues who slaved away for close to two months on every asp
     <li><a href="https://twitter.com/evelyn_pi">Evelyn Pi</a></li>
 </ul>
 
-Thanks to Jeremy Rue for helping us out when we hit a wall, and for believing we could do this project. Also, thanks to <a href="https://twitter.com/pgrabowicz">Paul Grabowicz</a> and <a href="https://twitter.com/koci">Koci Hernandez</a> for all your valuable input and direction. 
+Thanks to <a href="https://github.com/jrue">Jeremy Rue</a> for helping us out when we hit a wall, and for believing we could do this project. Also, thanks to <a href="https://twitter.com/pgrabowicz">Paul Grabowicz</a> and <a href="https://twitter.com/koci">Koci Hernandez</a> for all your valuable input and direction. 
 
 And thanks to Queness for developing a simple and easy-to-use tooltip and <a href="http://thenounproject.com/jamison">Jamison Wieser</a>, who made the arrows.
 
